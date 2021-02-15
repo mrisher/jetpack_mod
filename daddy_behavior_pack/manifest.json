@@ -4,7 +4,7 @@
         "description": "Daddy Behavior Pack",
         "name": "Daddy Behavior Pack",
         "uuid": "79e992fa-f0e0-4d3f-830c-9b5fec7e1cd7",
-        "version": [0,0,5],
+        "version": [0,0,7],
         "min_engine_version": [1,16,0]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "_",
             "type": "data",
             "uuid": "b97298e3-3227-4d86-af67-9815536dbff9",
-            "version": [0,0,1]
+            "version": [0,0,2]
         }
     ],
     "dependencies": [
