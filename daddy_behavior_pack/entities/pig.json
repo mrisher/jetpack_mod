@@ -8,6 +8,18 @@
       "is_experimental": false
     },
     "component_groups": {
+      "minecraft:exploding": {
+        "minecraft:explode": {
+          "fuse_length": 1.5,
+          "fuse_lit": true,
+          "power": 0,
+          "causes_fire": false,
+          "destroy_affected_by_griefing": true
+        },
+        "minecraft:scale": {
+          "value": 3       
+        }
+      },
       "minecraft:pig_baby": {
         "minecraft:is_baby": {
         },
@@ -119,18 +131,6 @@
         },
         "minecraft:behavior.controlled_by_player": {
           "priority": 0
-        },
-        "minecraft:exploding": {
-          "minecraft:explode": {
-            "fuse_length": 1.5,
-            "fuse_lit": true,
-            "power": 1,
-            "causes_fire": false,
-            "destroy_affected_by_griefing": true
-          },
-          "minecraft:scale": {
-            "value": 2       
-          }
         }
       }
     },
