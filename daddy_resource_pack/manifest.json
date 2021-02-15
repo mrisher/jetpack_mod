@@ -4,7 +4,7 @@
     "description": "Daddy Resource Pack",
     "name": "Daddy Pack",
     "uuid": "3ca194ec-ffa6-47bc-b7dc-432a3c80005a",
-    "version": [1, 0, 1],
+    "version": [1, 0, 3],
     "min_engine_version": [1, 16, 0]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "Daddy Resource Pack",
       "type": "resources",
       "uuid": "0287e3d7-1571-4631-bda3-9b3ccd3fd755",
-      "version": [1, 0, 0]
+      "version": [1, 1, 1]
     }
   ]
 }

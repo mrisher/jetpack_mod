@@ -4,7 +4,8 @@ GOOGLE_DRIVE_FOLDER := /mnt/chromeos/GoogleDrive/MyDrive/Minecraft/
 
 %.mcpack: $(JSON_FILES)
 	zip -FSr $@ $(basename $@)/
-	cp *.mcpack $(GOOGLE_DRIVE_FOLDER)
 
 all: $(addsuffix .mcpack, $(TARGETS))
-	
+	zip -FSr daddy_pack.mcaddon $^
+	cp $^ $(GOOGLE_DRIVE_FOLDER)
+	cp daddy_pack.mcaddon $(GOOGLE_DRIVE_FOLDER)	

@@ -183,10 +183,10 @@
         "value": 0.25
       },
       "minecraft:flying_speed": {
-          "value": 0.15
+          "value": 0.2
       },
-      "minecraft:navigation.hover": {
-          "can_path_over_water": true,
+      "minecraft:navigation.fly": {
+          "can_path_over_water": false,
           "can_sink": false,
           "can_pass_doors": false,
           "can_path_from_air": true,
@@ -194,7 +194,7 @@
           "avoid_damage_blocks": true,
           "avoid_sun": false
       },
-      "minecraft:movement.hover": {},
+      "minecraft:movement.fly": {},
       "minecraft:can_fly": {},
       "minecraft:jump.static": {
       },
