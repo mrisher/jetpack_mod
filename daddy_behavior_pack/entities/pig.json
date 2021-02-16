@@ -11,13 +11,10 @@
       "minecraft:exploding": {
         "minecraft:explode": {
           "fuse_length": 1.5,
-          "fuse_lit": true,
+          "fuse_lit": false,
           "power": 0,
           "causes_fire": false,
           "destroy_affected_by_griefing": true
-        },
-        "minecraft:scale": {
-          "value": 2       
         }
       },
       "minecraft:pig_baby": {
@@ -179,11 +176,8 @@
           }
         ]
       },
-      "minecraft:movement": {
-        "value": 0.25
-      },
       "minecraft:flying_speed": {
-          "value": 0.2
+          "value": 0.25
       },
       "minecraft:navigation.fly": {
           "can_path_over_water": false,
