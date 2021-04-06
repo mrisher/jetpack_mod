@@ -2,10 +2,10 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "minecraft:pig",
+      "identifier": "custom:flying_pig",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false
+      "is_experimental": true
     },
     "component_groups": {
       "minecraft:exploding": {
