@@ -1,8 +1,9 @@
 JSON_FILES := $(shell find -name *.json)
+PNG_FILES := $(shell find -name *.png)
 TARGETS := daddy_behavior_pack daddy_resource_pack
 GOOGLE_DRIVE_FOLDER := /mnt/chromeos/GoogleDrive/MyDrive/Minecraft/
 
-%.mcpack: $(JSON_FILES)
+%.mcpack: $(JSON_FILES) $(PNG_FILES)
 	$(shell ./bumpVersion.sh $(basename $@)/manifest.json)
 	zip -FSr $@ $(basename $@)/
 
