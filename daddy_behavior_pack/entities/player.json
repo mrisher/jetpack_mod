@@ -24,7 +24,10 @@
 							"visible": false
 						}
 					]
-				}
+				},
+                "minecraft:jump.static": {
+                    "jump_power": 1.0
+                }
 			},
 			"mr:standard_player": {}
 		},
